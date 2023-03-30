@@ -1,0 +1,28 @@
+{
+  "name": "mycart",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@rmwc/button": "^8.0.7",
+    "@rmwc/card": "^8.0.7",
+    "@rmwc/dialog": "^8.0.7",
+    "@rmwc/icon": "^8.0.7",
+    "@rmwc/icon-button": "^8.0.7",
+    "@rmwc/textfield": "^8.0.7",
+    "debounce": "^1.2.1",
+    "preact": "^10.13.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.5.0",
+    "@types/uuid": "^9.0.1",
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0"
+  }
+}
